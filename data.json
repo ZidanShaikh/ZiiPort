@@ -1,0 +1,64 @@
+{
+  "hero": {
+    "subtitle": "// developer & designer",
+    "name": "Zidan Shaikh",
+    "tagline": "Building interfaces that don't feel like work"
+  },
+  "about": {
+    "description": "I'm an Indian developer who enjoys exploring different programming languages and technologies. I like experimenting with new ideas, building interactive projects, and turning concepts into functional experiences. Alongside web development, I'm passionate about game development and enjoy creating games that combine logic, creativity, and design.",
+    "currently": [
+      "Learning ReactNative",
+      "learning Godot along with UnReal and Unity",
+      "Learning Golang"
+    ]
+  },
+  "skills": {
+    "Languages": [
+      "JavaScript/TypeScript",
+      "Python",
+      "HTML/CSS",
+      "Golang"
+    ],
+    "Frameworks": [
+      "React/Next.js",
+      "Node.js",
+      "Discord.js"
+    ],
+    "Design": [
+      "UI/UX thinking",
+      "Interaction design",
+      "Prototyping"
+    ]
+  },
+  "projects": [
+    {
+      "title": "Psylocke",
+      "description": "A terminal-based AI assistant designed with persistent conversational memory, allowing it to retain context across interactions and provide more consistent, personalized responses.",
+      "tech": ["Python", "CLI", "AI API", "Context Management"]
+    },
+    {
+      "title": "Lucy",
+      "description": "A Discord-based AI assistant with real-time streaming responses, voice integration, and persistent personality modeling. Designed to feel less like a traditional bot and more like an interactive presence within the server.",
+      "tech": ["Discord.js", "Node.js", "Voice API", "Streaming"]
+    },
+    {
+      "title": "ZeroNotes",
+      "description": "A clean, minimalist note-taking app with a focus on simplicity and speed. Write, organize, and access your notes without the clutter.",
+      "tech": ["React", "Local Storage", "Markdown"],
+      "link": "https://zeronotes.netlify.app/"
+    }
+  ],
+  "social": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/ZidanShaikh"
+    },
+    {
+      "name": "Email",
+      "url": "mailto:Zidanyt10@gmail.com"
+    }
+  ],
+  "footer": {
+    "text": "Built by Zidan Shaikh • 2025 • Curiosity isn't made, it's created"
+  }
+}

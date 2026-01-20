@@ -9,99 +9,46 @@
 <body>
   <div class="hero">
     <div class="hero-content">
-      <p class="subtitle">// developer & designer</p>
-      <h1>Zidan Shaikh</h1>
-      <p class="tagline">Building interfaces that don't feel like work</p>
+      <p class="subtitle" id="hero-subtitle">// developer & designer</p>
+      <h1 id="hero-name">Zidan Shaikh</h1>
+      <p class="tagline" id="hero-tagline">Building interfaces that don't feel like work</p>
       <a href="#about" class="cta">See what I do</a>
     </div>
   </div>
 
   <section id="about" class="reveal">
     <h2>About</h2>
-    <p>
-     I’m an Indian developer who enjoys exploring different programming languages and technologies. 
-     I like experimenting with new ideas, building interactive projects, and turning concepts into functional experiences. 
-     Alongside web development, I’m passionate about game development and enjoy creating games that combine logic, creativity, and design.
-    </p>
+    <p id="about-description"></p>
     
     <div class="currently">
       <h3>Currently</h3>
-      <p>→ Learning ReactNative<br>
-         → learning Godot along with UnReal and Unity<br>
-         → Learning Golang</p>
+      <p id="currently-list"></p>
     </div>
   </section>
 
   <section id="skills" class="reveal">
     <h2>Tools & Tech</h2>
-    <div class="skills-grid">
-      <div class="skill-category">
-        <h4>Languages</h4>
-        <ul>
-          <li>JavaScript/TypeScript</li>
-          <li>Python</li>
-          <li>HTML/CSS</li>
-          <li>Golang</li>
-        </ul>
-      </div>
-      <div class="skill-category">
-        <h4>Frameworks</h4>
-        <ul>
-          <li>React/Next.js</li>
-          <li>Node.js</li>
-          <li>Discord.js</li>
-        </ul>
-      </div>
-      <div class="skill-category">
-        <h4>Design</h4>
-        <ul>
-          <li>UI/UX thinking</li>
-          <li>Interaction design</li>
-          <li>Prototyping</li>
-        </ul>
-      </div>
+    <div class="skills-grid" id="skills-container">
+      <!-- Skills will be loaded from data.json -->
     </div>
   </section>
 
   <section class="projects reveal">
     <h2>Projects</h2>
-    <div class="card-container">
-      <div class="card">
-        <h3>Psylocke</h3>
-        <p>A terminal-based AI assistant designed with persistent conversational memory, allowing it to retain context across interactions and provide more consistent, personalized responses.</p>
-        <div class="tech-stack">
-          <span>Python</span>
-          <span>CLI</span>
-          <span>AI API</span>
-          <span>Context Management</span>
-        </div>
-      </div>
-      <div class="card">
-        <h3>Lucy</h3>
-        <p> A Discord-based AI assistant with real-time streaming responses, voice integration, and persistent personality modeling.
-            Designed to feel less like a traditional bot and more like an interactive presence within the server.
-        </p>
-        <div class="tech-stack">
-          <span>Discord.js</span>
-          <span>Node.js</span>
-          <span>Voice API</span>
-          <span>Streaming</span>
-        </div>
-      </div>
+    <div class="card-container" id="projects-container">
+      <!-- Projects will be loaded from data.json -->
     </div>
   </section>
 
   <section class="socials reveal">
     <h2>Connect</h2>
-    <div class="social-buttons">
-      <a href="https://github.com/ZidanShaikh" target="_blank">GitHub →</a>
-      <!-- <a href="https://twitter.com/yourusername" target="_blank">Twitter →</a> -->
-      <a href="mailto:Zidanyt10@gmail.com">Email →</a>
+    <div class="social-buttons" id="social-container">
+      <!-- Social links will be loaded from data.json -->
     </div>
   </section>
 
   <footer>
-    <p>Built by Zidan Shaikh • <p>2026</p> • Curiosity isn’t made, it’s created.</p>
+    <p id="footer-text"></p>
   </footer>
 
   <script src="script.js"></script>

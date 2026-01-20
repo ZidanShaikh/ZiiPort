@@ -338,3 +338,17 @@ footer p span {
     grid-template-columns: 1fr;
   }
 }
+
+.project-link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: transform 0.3s;
+}
+
+.project-link:hover {
+  transform: translateX(4px);
+}
