@@ -47,6 +47,12 @@
       "tech": ["React", "Local Storage", "Markdown"],
       "link": "https://zeronotes.netlify.app/"
     }
+    {
+      "title": "PSTracker",
+      "description": "Track your PlayStation 5 game collection with cloud sync across all devices. Monitor completion rates, platinum trophies, and playtime with a sleek gaming-inspired interface.",
+      "tech": ["Firebase Realtime Database", "Vanilla JavaScript", "Cloud Sync"],
+      "link": "https://pstracker-z.netlify.app/"
+    }
   ],
   "social": [
     {
